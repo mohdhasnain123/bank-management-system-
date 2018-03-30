@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<ul id="ul1">
+  <li id="id1"><a  href="index1.html">Home</a></li>
+  <li><a href="help.html">Help</a></li>
+  <li><a class="active" href="contact.html">Contact</a></li>
+  
+  <li style="float:right"><a  href="login.html">Login</a></li>
+  <li style="float:right"><a  href="signup.html">Signup</a></li>
+</ul>
+
+	<h1 style="text-align: center;font-size: 30px;font-family: bebas;border: 2px solid black;">CONTACT US</h1>
+	<div class="container">
+  <form action="contact.php" method="post">
+    <label for="fname">First Name</label>
+    <input type="text" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text"  name="lastname" placeholder="Your last name..">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email...">
+
+    <label for="branch">City</label>
+    <select id="city" name="city">
+      <option value="mumbai">Mumbai</option>
+      <option value="chennai">Chennai</option>
+      <option value="varanasi">Varanasi</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

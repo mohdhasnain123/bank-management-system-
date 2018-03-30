@@ -1,0 +1,54 @@
+body{
+	background:  url("img1.jpg");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.8;
+    border: 1px solid white;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+	font-size: 25px;
+	font-family: bebas;
+    display: block;
+    color: white;
+    text-align: center;
+    padding:  22px;
+    text-decoration: none;
+    border-collapse: collapse;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    font-size: 30px;
+}
+
+.active {
+    
+    font-size: 30px;
+    border: 1px solid white;
+    opacity: 0.5;
+}
+
+
+
+.helpdesk{
+	height: 100px;
+	width:100%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#check{
+	background-image: none;
+}
